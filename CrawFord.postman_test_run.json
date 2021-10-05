@@ -1,0 +1,141 @@
+{
+	"id": "698c9035-a2c2-414b-ac6f-32e8703c38dc",
+	"name": "CrawFord",
+	"timestamp": "2021-10-04T23:56:52.804Z",
+	"collection_id": "11308029-87fd14c8-eff2-4283-a558-ddb7f556a677",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "5a231025-7e32-4e36-9906-b4dedd4cf74b",
+			"name": "Teast Case 2",
+			"url": "https://reqres.in/api/users/4",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Test Case 2A": true,
+				"Test Case 2B": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test Case 2A": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test Case 2B": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Test Case 2A": true,
+					"Test Case 2B": true
+				}
+			]
+		},
+		{
+			"id": "d5b62bfd-66bf-42c4-b4da-e1bedb7b8d1d",
+			"name": "Test Case 3",
+			"url": "https://reqres.in/api/users/6",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Test Case 3A": false,
+				"Test Case 3B": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test Case 3A": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Test Case 3B": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Test Case 3A": false,
+					"Test Case 3B": true
+				}
+			]
+		},
+		{
+			"id": "b32f7b90-1bf2-4654-9873-92e751b30986",
+			"name": "Test Case 4",
+			"url": "https://reqres.in/api/users/23",
+			"time": 232,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 380,
+	"collection": {
+		"requests": [
+			{
+				"id": "5a231025-7e32-4e36-9906-b4dedd4cf74b",
+				"method": "GET"
+			},
+			{
+				"id": "d5b62bfd-66bf-42c4-b4da-e1bedb7b8d1d",
+				"method": "GET"
+			},
+			{
+				"id": "b32f7b90-1bf2-4654-9873-92e751b30986",
+				"method": "GET"
+			}
+		]
+	}
+}
